@@ -242,7 +242,6 @@ A curated list of awesome resources, learning materials, tools, frameworks, plat
   * [A Tutorial Implementation of a Dependently Typed Lambda Calculus](https://www.andres-loeh.de/LambdaPi/).
   * [A Beginner's Guide to Linkers](http://www.lurklurk.org/linkers/linkers.html) - Tutorial for helping C & C++ programmers understand the essentials of what the linker does.
   * [Algorithm W Step By Step](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.65.7733&rep=rep1&type=pdf).
-  * [Building a LISP from scratch with Swift](https://www.uraimo.com/2017/02/05/building-a-lisp-from-scratch-with-swift/).
   * [Compiler Optmization Tutorial](https://www.youtube.com/watch?v=SfV8aRX0YY0).
   * [Hindley-Damas-Milner Tutorial](https://github.com/quchen/articles/tree/master/hindley-milner) - Extensively documented walkthrough for typechecking a basic functional language using the Hindley-Damas-Milner algorithm.
   * [How I Wrote a Programming Language, and How You Can Too](https://medium.com/@william01110111/the-programming-language-pipeline-91d3f449c919).
@@ -293,7 +292,6 @@ A curated list of awesome resources, learning materials, tools, frameworks, plat
   * [QBE: The Quick Backend](http://c9x.me/compile/) - Pure C embeddable SSA-based compiler backend.
   * [Rubinius](https://github.com/rubinius/rubinius) - Programming Languages Development Platform.
   * [Summus](https://github.com/igor84/summus) - Basic, reusable, compiler-frontend implementation using LLVM as a backend.
-  * [ZetaVM](https://github.com/zetavm/zetavm) - Multi-Language Platform for Dynamic Programming Languages.
 
 ### C / C++
 
@@ -303,14 +301,12 @@ A curated list of awesome resources, learning materials, tools, frameworks, plat
   * [libFirm](http://pp.ipd.kit.edu/firm/) - C-library that provides a graph-based intermediate representation, optimizations, and assembly code generation suitable for use in compilers.
   * [libJIT](https://www.gnu.org/software/libjit/) - Library for generic Just-In-Time compiler functionality independent of any particular bytecode, language, or runtime.
   * [myJIT](http://myjit.sourceforge.net/) - Library for machine-code generation and execution at run-time.
-  * [OrangeC](http://github.com/LADSoft/OrangeC) - Win32 C11/C++2014 compiler and toolchain.
   * [PCC](http://pcc.ludd.ltu.se/) - The Portable C Compiler (C as a Backend).
   * [TCC](http://bellard.org/tcc/) - The Tiny C Compiler (C as a Backend).
 
 ### CLR
 
   * [Cecil](http://www.mono-project.com/docs/tools+libraries/libraries/Mono.Cecil/) - Library to generate and inspect programs and libraries in the ECMA CIL format.
-  * [DotNetPELib](https://github.com/LADSoft/DotNetPELib) - Library to read and write .net assemblies in C++11
   * [ILSpy](http://ilspy.net) - .NET Decompiler.
   * [Reflector](http://www.red-gate.com/products/dotnet-development/reflector/) - .NET Decompiler.
   * [Reflexil](http://sebastien.lebreton.free.fr/reflexil/) - Assembly code editor which can be used as a plugin with other .NET/CLR tools.
@@ -347,8 +343,6 @@ A curated list of awesome resources, learning materials, tools, frameworks, plat
   * [IRHudra](http://mrale.ph/irhydra/2/) - Tool for displaying intermediate representations used by V8 and Dart VM optimizing compilers.
     + [GitHub Repo](https://github.com/mraleph/irhydra).
   * [JISON](http://zaa.ch/jison/docs/) - Context-free grammar parser generator for JavaScript.
-  * [Nearley](https://github.com/Hardmath123/nearley) - Simple, fast, powerful parser toolkit for JavaScript.
-  * [Ohm](https://github.com/harc/ohm) - A library and language for building parsers, interpreters, compilers, etc.
   * [PEG.js](https://pegjs.org) - Simple parser generator for JavaScript.
 
 ### JVM
@@ -358,7 +352,6 @@ A curated list of awesome resources, learning materials, tools, frameworks, plat
   * [CGLIB](https://github.com/cglib/cglib) - High level API library for generating and transforming Java Byte Code.
   * [FCP JVM](http://wiki.freepascal.org/FPC_JVM) - JVM Backend for generating Java Byte Code that conforms to the JDK v1.5+ Specification and the Dalvik VM.
   * [JavaCC](https://javacc.org) - Java Compiler Construction and Parser Generator Toolkit.
-  * [JavaCPP Presets for LLVM](https://github.com/bytedeco/javacpp-presets/tree/master/llvm) - Library for easily interacting with the LLVM API.
   * [JFlex](http://www.jflex.de) - JFlex is a lexical analyzer generator for Java with full Unicode support.
   * [JLex](http://www.cs.princeton.edu/~appel/modern/java/JLex/) - JLex is a lexical analyzer generator, that can be used in combination with CUP.
 
@@ -391,6 +384,7 @@ A curated list of awesome resources, learning materials, tools, frameworks, plat
   * [Pest](https://github.com/pest-parser/pest) - PEG Parser Generator.
   * [RLS](https://github.com/rust-lang-nursery/rls) - The Rust Language Server implementation (aka RLS).
 
+
 ## Compilers and Interpreters
 
 _This section aims at listing code projects of Compilers, Interpreters, Translators, Runtimes, Virtual Machines and the like._
@@ -399,11 +393,9 @@ _This section aims at listing code projects of Compilers, Interpreters, Translat
 
   * [Babel.js](https://github.com/babel/babel) - Next-generation JavaScript Compiler.
   * [ChezScheme's Compiler](https://github.com/cisco/ChezScheme) - ChezScheme Language Compiler.
-  * [ELENA Compiler](https://github.com/ELENA-LANG/elena-lang) - Elena programming language.
   * [Eta' Compiler](https://github.com/typelead/eta) - JVM-based Compiler for the Eta Programming Language.
   * [Frege's Compiler](https://github.com/Frege/frege) - JVM-based Compiler for the Frege Programming Language.
   * [Gluon's Compiler](https://github.com/gluon-lang/gluon) - Embedded Language Compiler written in Rust.
-  * [HHVM](https://github.com/facebook/hhvm) - Virtual Machine for running programs written in Hack and PHP.
   * [Lily's Interpreter](https://github.com/FascinatedBox/lily).
   * [Lua's Interpreter](https://github.com/LuaDist/lua) - Official Lua Language Interperter.
     + [Lua's Annotated Source Code](http://stevedonovan.github.io/lua-5.1.4/) - Annotated source code of the Lua Programming Language Interpreter v5.1.4.
@@ -412,15 +404,12 @@ _This section aims at listing code projects of Compilers, Interpreters, Translat
   * [P Lang](https://github.com/p-org/P) - The P Programming Language Runtime.
   * [Red's Compiler](https://github.com/red/red).
   * [Roslyn](https://github.com/dotnet/roslyn) - The .NET "Roslyn" Compiler Platform.
-  * [Simple-MSIL-Compiler](https://github.com/LADSoft/Simple-MSIL-Compiler) - C compiler that compiles to CLR.
   * [TypeScript's Compiler](https://github.com/Microsoft/TypeScript).
   * [Wren's Compiler](https://github.com/munificent/wren).
   * [Zig's Compiler](https://github.com/zig-lang/zig) - Zig Language Compiler.
 
 ### Educational and Toy Projects
 
-  * [amacc](https://github.com/jserv/amacc) - Small C Compiler generating ELF executable for Arm architecture.
-    + Discussions: [HN](https://news.ycombinator.com/item?id=11411124).
   * [Black](http://www.is.ocha.ac.jp/~asai/Black/) - Scheme interpreter for the Reflective Programming Language "Black", by Kenichi Asai's.
     + Other sources: [GitHub Mirror](https://github.com/readevalprintlove/black).
   * [C4](https://github.com/rswier/c4) - C Lang in 4 Functions.
@@ -442,7 +431,6 @@ _This section aims at listing code projects of Compilers, Interpreters, Translat
   * [Poprc](https://github.com/HackerFoo/poprc) - Compiler for the Popr Language.
   * [PyCOOLC](https://github.com/aalhour/PyCOOLC) - Compiler for the COOL Programming Language written in Python 3.
   * [RabbitVM](https://github.com/rabbitvm/rabbit) - RISC-based VM implementation in C.
-  * [StackVM](https://github.com/KCreate/stackvm) - Virtual Machine with an integrated VRAM display.
   * [stack_cpu](https://github.com/dsturnbull/stack_cpu) - Stack-machine simulator.
   * [The Super Tiny Compiler](https://github.com/thejameskyle/the-super-tiny-compiler) - Tiny educational compiler project in JavaScript.
     + Discussions: [HN](https://news.ycombinator.com/item?id=11395656).
